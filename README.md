@@ -9,30 +9,30 @@ Instalace
 
 Requirements - NodeJS, Grunt, Bower
 
-    Nainstalovat GIT pomoci:
-    sudo apt-get install git
-    Naklonovat si repository pomoci:
-    git clone https://github.com/romanicak/growduino-client
-    Sup do adresare:
-    cd growduino-client
-    Nainstalovat NPM pomoci:
-    sudo apt-get install npm
-    Nainstalovat NodeJS zavislosti (pro dev a pripadne pro proxy):
-    npm install
-    Nainstalovat Bower pomoci:
-    sudo npm install -g bower
-    Dostat Node na spravnou cestu, on uz se totiz jmenuje NodeJS:
-    sudo ln -s /usr/bin/nodejs /usr/bin/node
-    Bower pak stahne vsechny zavislosti samotne webove aplikace:
-    bower install
-    Nainstalovat Grunt pomoci:
-    sudo npm install -g grunt-cli
-    -- Ted je vse pripraveno pro build, nasledujici je potreba pro editaci a testy--
-    Spustit proxy pomoci:
-    node proxy
-    V prohlizeci by se ted pod adresou localhost:8000 mel zobrazit lokalni web co si taha data ze skutecnyho Growduina
-    Stahnout editor, treba http://www.sublimetext.com/ (rozbalit a instalovat jde ve voknech) spustit z terminalu pomoci:
-    subl
-    Po editaci (staci tam pretahovat co chci editovat) se buildi pomoci:
-    grunt dist
-    (kde dist je parametr jakou distribuci buildit, pro rybare je to distfish)
+Install GIT help:
+sudo apt-get install git
+Clone a repository of assistance:
+git clone https://github.com/romanicak/growduino-client
+Sup to the directory:
+cd-client growduino
+Install NPM help:
+sudo apt-get install NPM
+NodeJS install the dependencies (for dev and possibly for proxy):
+NPM install
+Install Bower help:
+sudo npm install -g Bower
+Node to get back on track, he already is the name NodeJS:
+sudo ln -s / usr / bin / nodejs / usr / bin / node
+Bower then downloads all the dependencies The web application:
+Bower install
+Install Grunt help:
+sudo npm install -g grunt-cli
+- Now we're ready to build, the following is needed for editing and testy--
+Run Proxy support:
+proxy node
+The browser should now below the address localhost: 8000 should see a local site what taha data from skutecnyho Growduina
+Download editor, be http://www.sublimetext.com/ (unpack and install goes in VOKNO) run from the terminal using:
+Subl
+After editing (just drag where you want to edit), the buildi help:
+grunt dist
+(Where dist is a parameter which Buildit distribution, fishermen's distfish)
